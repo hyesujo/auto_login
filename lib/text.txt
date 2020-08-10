@@ -1,0 +1,5 @@
+//하나의 페이지에서 Listview.bulder * 2
+
+//class : ab - extends/ ab- implenents + mixIn
+
+//모델링
