@@ -1,10 +1,10 @@
 
 
 import 'package:flutter/material.dart';
+import 'package:hs/KakaoLogin.dart';
 import 'package:hs/Provider/LoginCheckProvider.dart';
 import 'package:hs/Provider/MainProvider.dart';
 import 'package:hs/Provider/PageTwoProvider.dart';
-import 'package:hs/viewModels/LoginCheck.dart';
 import 'package:provider/provider.dart';
 
 
@@ -16,7 +16,7 @@ void main() =>runApp(
       ChangeNotifierProvider<LoginCheckProvider>(create: (_) => new LoginCheckProvider()),
     ],
     child: MaterialApp(
-      home: LoginCheck(),
+      home: KakaoLogin(),
     ),
   )
 );

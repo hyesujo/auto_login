@@ -5,7 +5,7 @@ import 'package:hs/models/main_model.dart';
 import 'package:hs/pagetwo.dart';
 import 'package:hs/repo/connect_net.dart';
 import 'package:provider/provider.dart';
-import 'package:shared_preferences/shared_preferences.dart';
+
 
 class MainPage extends StatefulWidget {
 

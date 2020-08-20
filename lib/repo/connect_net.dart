@@ -5,7 +5,7 @@ import 'package:hs/models/main_model.dart';
 import 'package:http/http.dart' as http;
 
 class ConnetNet {
-   static const String _url ="http://172.30.1.16:3000";
+   static const String _url ="http://127.0.0.1:3000";
 
   Future fetchBasic() async {
     http.Response _res; //전역변수
